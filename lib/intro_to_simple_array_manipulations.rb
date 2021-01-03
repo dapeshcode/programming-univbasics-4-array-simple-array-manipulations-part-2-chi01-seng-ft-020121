@@ -23,3 +23,5 @@ def using_delete_at(array, num)
 end 
 
 test_flatten = [1, 2, 3, [4, 5, 6]]
+
+puts using_flatten(test_flatten)
