@@ -22,6 +22,6 @@ def using_delete_at(array, num)
   array.delete_at(num)
 end 
 
-test_flatten = [1, 2, 3, [4, 5, 6]]
+test_flatten = [1, 2, 3, [4, 5, 6], ["this", "is", "a", "test"]]
 
 puts using_flatten(test_flatten)
